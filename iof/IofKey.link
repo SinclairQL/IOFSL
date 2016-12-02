@@ -1,0 +1,20 @@
+* Linker to test IOFLIN/STR
+*
+filetype 0
+dir ram1_iof_
+*
+program IOFSL_bin
+*
+input IofKey_rel
+*
+input sbu_par_getpars_rel
+input sbu_chan_gtchan_rel
+*
+input iofstr_rel
+*
+* Return integer to BASIC
+input sbu_mem_resrir_rel
+input sbu_mem_resri_rel
+*
+input sbu_ret_bplet_rel
+*
